@@ -122,7 +122,17 @@ body {
 /**
  * Add the correct display in IE 9-.
  */
-article,
+
+
+
+
+
+
+
+
+
+
+ article,
 aside,
 footer,
 header,
@@ -321,7 +331,7 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: 'Work Sans';
+	font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 	/* 1 */
 	font-size: 100%;
 	/* 1 */
@@ -614,7 +624,7 @@ html {
 
 body {
 	color: #000000;
-	font-family: 'Work Sans';
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 	font-size: 17px;
 	font-size: 1.7rem;
 	font-weight: 400;
@@ -628,8 +638,8 @@ body {
 }
 
 body > div {
-	font-size: 18px;
-	font-size: 1.8rem;
+	font-size: 18.5px;
+	font-size: 1.85rem;
 }
 
 p {
@@ -685,6 +695,14 @@ a {
 a:hover {
 	color: #4900eb;
 }
+h2 a {
+    color: #841698;
+}
+
+h2 a:hover {
+    color: #650078;
+}
+
 
 /* ## Headings
 --------------------------------------------- */
@@ -694,8 +712,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Rubik';
-	font-weight: 500;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-weight: 700;
 	line-height: 1.236;
 	margin: 0 0 0.618em;
 }
@@ -705,24 +723,45 @@ h1 {
 }
 
 h2 {
-	font-size: 1.6em;
+	font-size: 30px;
+    font-size: 3rem;
 }
 
 h3 {
-	font-size: 1.4em;
+	font-size: 25px;
+    font-size: 2.5rem;
 }
 
 h4 {
-	font-size: 1.2em;
+	font-size: 21px;
+    font-size: 2.1rem;
 }
 
 h5 {
-	font-size: 1.1em;
+	font-size: 19.3px;
+    font-size: 1.93rem;
 }
 
 h6 {
-	font-size: 1em;
+	font-size: 17.4px;
+    font-size: 1.74rem;
 }
+
+h1 b,
+h1 strong,
+h2 b,
+h2 strong,
+h3 b,
+h3 strong,
+h4 b,
+h4 strong,
+h5 b,
+h5 strong,
+h6 b,
+h6 strong {
+	font-weight: 700;
+}
+
 
 /* ## Forms
 --------------------------------------------- */
